@@ -48,6 +48,5 @@ def runApp():
     first_thread.join()
     second_thread.join()
 
-
 if __name__ == '__main__':
     runApp()
