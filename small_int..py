@@ -23,5 +23,11 @@ def getSmallInt(A):
     return A[n]+1
 
 if __name__ == "__main__":
-    A= [-1,-3]
+    A = []
+    num_times = int(input('How many times: '))
+    i = 0
+    while i<num_times:
+        num = int(input(str(i) + ' Enter number : '))
+        A.append(num)
+        i+=1
     getSmallInt(A)
